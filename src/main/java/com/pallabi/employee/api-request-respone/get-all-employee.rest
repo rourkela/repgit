@@ -1,0 +1,38 @@
+#http-method
+GET
+
+#url
+http://localhost:8080/employees
+
+#http-header
+@Content-Type: application/json
+
+#request body
+[
+ 
+
+]
+
+
+
+
+%%%
+
+# Duration: 315 ms
+# URL: http://localhost:8080/employees
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Mon, 20 Jul 2020 05:07:41 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+[
+  {
+    "id": 1,
+    "name": "Swayam",
+    "age": 26
+  }
+]

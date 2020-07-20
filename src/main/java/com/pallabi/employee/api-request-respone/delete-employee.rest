@@ -1,0 +1,32 @@
+#http-method
+DELETE
+
+#url
+http://localhost:8080/employee/1
+
+#http-header
+@Content-Type: application/json
+
+#request body
+[
+ 
+
+]
+
+
+
+
+%%%
+
+# Duration: 47 ms
+# URL: http://localhost:8080/employee/1
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Mon, 20 Jul 2020 05:08:25 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+"OK"

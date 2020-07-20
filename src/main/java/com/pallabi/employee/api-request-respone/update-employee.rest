@@ -1,0 +1,35 @@
+#http-method
+PUT
+
+#url
+http://localhost:8080/employee/1
+
+#http-header
+@Content-Type: application/json
+
+#request body
+{
+"name" : "Palabi"
+}
+
+
+
+
+%%%
+
+# Duration: 29 ms
+# URL: http://localhost:8080/employee/1
+
+# HTTP/1.1 200
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Mon, 20 Jul 2020 05:08:02 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+{
+  "id": 1,
+  "name": "Palabi",
+  "age": 0
+}
